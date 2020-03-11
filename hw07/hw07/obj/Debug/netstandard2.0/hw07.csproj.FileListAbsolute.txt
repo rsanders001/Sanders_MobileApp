@@ -1,0 +1,12 @@
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.csprojAssemblyReference.cache
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.csproj.CoreCompileInputs.cache
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.AssemblyInfoInputs.cache
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.AssemblyInfo.cs
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.dll
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/hw07.pdb
+/Users/bitstudent/Projects/hw07/hw07/bin/Debug/netstandard2.0/hw07.deps.json
+/Users/bitstudent/Projects/hw07/hw07/bin/Debug/netstandard2.0/hw07.dll
+/Users/bitstudent/Projects/hw07/hw07/bin/Debug/netstandard2.0/hw07.pdb
+/Users/bitstudent/Projects/hw07/hw07/obj/Debug/netstandard2.0/XamlC.stamp

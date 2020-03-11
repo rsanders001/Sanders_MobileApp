@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="hw07.MainPage">
+
+   <Grid Margin="0, 100, 0, 0">
+       <Grid.RowDefinitions>
+           <RowDefinition Height="*"></RowDefinition>
+           <RowDefinition Height="*"></RowDefinition>
+           <RowDefinition Height="*"></RowDefinition>
+       </Grid.RowDefinitions>
+       <Grid.ColumnDefinitions>
+           <ColumnDefinition Width="*"></ColumnDefinition>
+           <ColumnDefinition Width="*"></ColumnDefinition>
+       </Grid.ColumnDefinitions>
+       <Label x:Name="questionLabel" Text="" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"/>
+      
+       <Button Text="False" Grid.Row="1" Grid.Column="0" Clicked="false_Clicked"/>
+       <Button Text="True" Grid.Row="1" Grid.Column="1" Clicked="true_Clicked"/>
+
+       <Label  x:Name="scoreLabel" Text="Swipe Here" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center">
+
+           <Label.GestureRecognizers>
+               <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"></SwipeGestureRecognizer>
+               <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"></SwipeGestureRecognizer>
+
+               </Label.GestureRecognizers>
+           </Label>
+
+   </Grid>
+
+</ContentPage>
